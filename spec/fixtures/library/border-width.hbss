@@ -1,0 +1,21 @@
+{{import 'setup'}}
+
+.border-width-all {
+  {{bbn.border-width '1px'}}
+}
+
+.border-width-alternate {
+  {{bbn.border-width '2px' '3px'}}
+}
+
+.border-width-implied-left {
+  {{bbn.border-width '4px' '5px' '6px'}}
+}
+
+.border-width-explicit {
+  {{bbn.border-width '7px' '8px' '9px' '10px'}}
+}
+
+.border-width-false-third {
+  {{bbn.border-width '11px' '12px' 'null' '13px'}}
+}

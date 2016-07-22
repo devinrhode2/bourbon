@@ -1,0 +1,27 @@
+
+red: f00,
+blue: 0f0,
+green: 00f,
+purple: ff0
+
+{{import "setup"}}
+
+.border-color-all {
+  {{bbn.border-color red}}
+}
+
+.border-color-alternate {
+  {{bbn.border-color blue green}}
+}
+
+.border-color-implied-left {
+  {{bbn.border-color red blue green}}
+}
+
+.border-color-explicit {
+  {{bbn.border-color green blue red purple}}
+}
+
+.border-color-false-third {
+  {{bbn.border-color blue purple 'null' green}}
+}

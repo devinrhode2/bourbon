@@ -1,0 +1,17 @@
+{{import "setup"}}
+
+.border-top-radius {
+  {{bbn.border-top-radius '1em'}}
+}
+
+.border-left-radius {
+  {{bbn.border-left-radius '2em'}}
+}
+
+.border-right-radius {
+  {{bbn.border-right-radius '3em'}}
+}
+
+.border-bottom-radius {
+  {{bbn.border-bottom-radius '4em'}}
+}

@@ -1,0 +1,21 @@
+{{import 'setup'}}
+
+.border-style-all {
+  {{bbn.border-style 'solid'}}
+}
+
+.border-style-alternate {
+  {{bbn.border-style 'dotted' 'dashed'}}
+}
+
+.border-style-implied-left {
+  {{bbn.border-style 'dashed' 'double' 'solid'}}
+}
+
+.border-style-explicit {
+  {{bbn.border-style 'dotted' 'groove' 'ridge' 'none'}}
+}
+
+.border-style-false-third {
+  {{bbn.border-style 'inset' 'none' 'null' 'double'}}
+}
