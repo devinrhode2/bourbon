@@ -1,11 +1,9 @@
 
-/// A list of all _text-based_ HTML inputs.
-///
-/// @type list
-///
-/// @access private
-
-//MUST NAME IMPORTED VAR "$_text-inputs-list"
+/**
+ * A list of all _text-based_ HTML inputs.
+ * 
+ * MUST NAME IMPORTED VAR "$_text-inputs-list" 
+ */
 
 export default [
   "[type='color']",
